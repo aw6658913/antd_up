@@ -1,0 +1,15 @@
+export const light = {
+    '@primary-color': '#0081cc',
+    '@text-color': 'fade(@black, 65%)',
+    '@text-color-secondary': 'fade(@black, 45%)',
+    '@heading-color': 'fade(#000, 85%)',
+    '@layout-body-background': '#f0f2f5',
+    '@btn-primary-bg': '#0081cc',
+    '@layout-header-background': '#fff',
+    '@layout-sider-background': '#fff',
+    '@component-background': '#fff',
+    '@input-border-color': 'hsv(0, 0, 85%)',
+    '@border-color-base': 'hsv(0, 0, 85%)',
+    '@card-head-color': '#3E3F42',
+    '@ant-card-head-background': 'rgba(0, 0, 0, 0.01)',
+};

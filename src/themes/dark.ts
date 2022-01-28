@@ -1,0 +1,16 @@
+export const dark = {
+    '@component-background': 'rgb(71,71,71)',
+    '@layout-sider-background': 'rgb(51,51,51)',
+    '@primary-color': 'white',
+    '@text-color': 'rgb(0,200,255)',
+    '@text-color-secondary': '#1466F7',
+    '@layout-body-background': 'rgb(71,71,71)',
+    '@page-header-ghost-bg': 'rgb(71,71,71)',
+    '@border-color-base': 'rgb(0,200,255)',
+    '@border-color-split': 'rgb(0,200,255)',
+    '@border-color-invert': 'rgb(0,200,255)',
+    '@input-border-color': 'rgb(0,200,255)',
+    '@card-head-background': 'rgb(0,200,255)',
+    '@card-head-color': '#00c8ff',
+    '@ant-card-head-background': '#333333',
+};

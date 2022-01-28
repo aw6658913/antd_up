@@ -1,0 +1,268 @@
+.login-ext-box {
+  font-size: 0;
+}
+.login-ext-box .right-box {
+  display: inline-block;
+  width: 45.14%;
+  min-width: 426px;
+  min-height: calc(100vh);
+  position: relative;
+}
+.login-ext-box .left-box {
+  display: inline-block;
+  width: 54.86%;
+  vertical-align: top;
+  min-height: calc(100vh);
+  background-color: rgb(233,245,254) !important;
+  position: relative;
+}
+.login-ext-box .left-box .title {
+    font-size: 42px;
+    font-weight: 400;
+    color: rgba(0,129,203,1);
+    line-height: 90px;
+    position: absolute;
+    top: 118px;
+    left: 80px;
+}
+.login-ext-box .right-box .login-form .title.long {
+  font-size: 32px;
+}
+.login-ext-box .right-box .login-form.long{
+  width: 388px;
+  margin: 0 auto 13% auto;
+}
+.login-ext-box .left-box .description {
+  font-size: 42px;
+    font-weight: 400;
+    color: rgba(0,129,203,1);
+    line-height: 90px;
+    position: absolute;
+    top: 198px;
+    left: 80px;
+}
+.login-ext-box .right-box .change-lang {
+  text-align: right;
+  margin-top: 60px;
+  margin-right: 60px;
+}
+.login-ext-box .right-box .login-container {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.login-ext-box .right-box .login-form {
+  width: 356px;
+  margin: 13% auto;
+  height: 350px;
+}
+.login-ext-box .right-box .login-form .title{
+  color: #0081cc;
+  font-size: 50px;
+  font-weight: bold;
+  /* margin-bottom: 66px; */
+  margin-bottom: 8px;
+}
+.login-ext-box .right-box .login-form label {
+  font-size: 16px;
+  color: #3D4A59;
+}
+.login-ext-box .right-box .login-form .anticon {
+    color: #A3A7B9;
+    font-size: 18px;
+}
+.login-ext-box .right-box .login-form input {
+    border: none;
+    border-bottom: 1px solid #D3D5E0;
+    border-radius: inherit;
+    padding: 20px\9 20px 20px 36px;
+}
+.login-ext-box .right-box .login-form .password-item {
+    margin-top: 22px !important;
+}
+.login-ext-box .right-box .login-form input:focus {
+  box-shadow: none;
+}
+.login-ext-box .right-box .login-form .has-error .ant-form-explain {
+  margin-top: 2px;
+}
+.login-ext-box .right-box .login-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #3D4A59;
+    margin-bottom: 6px;
+    /* margin-bottom: 26px; */
+}
+.login-ext-box .right-box .show-error {
+  opacity: 1;
+  transition: all 0.1s ease-in;
+  margin-bottom: 26px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.login-ext-box .right-box .hide-error {
+  opacity: 0;
+  transition: all 0s ease-in;
+}
+.login-ext-box .right-box .login-form .login-form-forgot{
+  float: right;
+  margin-top: 16px;
+  color: #838591;
+  font-size: 14px;
+}
+.login-ext-box .right-box .login-form .login-form-forgot:hover{
+  color: #0081CC;
+}
+.login-ext-box .right-box .login-form .form-button {
+  width: 100%;
+  height:50px;
+  background:#0880D2;
+  box-shadow:0px 5px 10px 0px rgba(1,74,133,0.16) !important;
+  border-radius:5px;
+  margin-top: 58px;
+  font-size: 18px;
+}
+.login-ext-box .right-box .login-form .form-button:hover, .login-ext-box .right-box .login-form .form-button:focus {
+  color: #fff;
+  background-color: #0091E5;
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+.login-ext-box .right-box .copyright{
+  font-size: 13px;
+  text-align: center;
+  /* margin-top: 37%; */
+  color: #A4A8BA;
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  margin-left: -27.14%;
+}
+.login-ext-box .left-box .logo {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  max-width: 180px;
+}
+.login-ext-box .left-box .bg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media(max-width: 1700px) {}
+@media(max-width: 1500px) {}
+@media(max-width: 1280px) {}
+@media(max-width: 1152px) {}
+@media(max-width: 1024px) {}
+@media(max-width: 950px)  {
+  .login-ext-box .right-box {
+    width: 100%;
+    min-height: inherit;
+  }
+  .login-ext-box .left-box {
+    width: 0%;
+    min-height: inherit;
+    position: inherit;
+  }
+  .login-ext-box .left-box .bg {
+    display: none;
+  }
+  .login-ext-box .right-box .login-container {
+    margin: 0 auto;
+    position: inherit;
+    top: inherit;
+    transform: inherit;
+    left: inherit;
+  }
+  .login-ext-box .right-box .copyright {
+    margin-left: inherit;
+  }
+  .login-ext-box .right-box .browser-tip{
+    margin-left: inherit;
+  }
+}
+
+@media(max-width: 1366px)  {
+  .login-ext-box .right-box .login-form {
+    margin: 0 auto;
+  }
+  .login-ext-box .right-box .login-form .form-button {
+    margin-top: 0;
+  }
+}
+
+@media(max-width: 750px)  {
+  .login-ext-box .left-box .logo {
+    position: absolute;
+    top: 82px;
+    left: 29%;
+  }
+  .login-ext-box .right-box .login-form .title {
+    text-align: center;
+    margin-bottom: 52px;
+  }
+  .login-ext-box .right-box .login-form .title.long {
+    margin-bottom: 30px;
+  }
+  .login-ext-box .right-box .login-form {
+    margin: 26% auto;
+  }
+  .login-ext-box .right-box .login-form.long{
+    margin: 30% auto;
+  }
+  .login-ext-box .right-box .login-title {
+    display: none;
+  }
+  .login-ext-box .right-box .copyright {
+    color: #D3D5E0;
+  }
+  .login-ext-box .right-box .change-lang {
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 10px;
+}
+}
+.browser-tip{
+  display: flex;
+  align-items: center;
+  color: #A4A8BA;
+  position: fixed;
+  left:60px;
+  bottom: 30px;
+  font-size: 13px;
+
+}
+.browser-tip .browser-box{
+  display: inline-block;
+  margin: 0 5px;
+}
+.browser-tip .browser-box img {
+  width: 30px;
+}
+.rm-count-dowm{
+  font-size: 14px ;
+  color: #FFA200 !important;
+}
+.rm-count-dowm-wrap{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 18px;
+  background-color: rgba(255,160,0,0.1) !important;
+  border: none !important;
+  font-size: 14px;
+  padding:4px 15px 8px 37px !important;
+}
+.rm-count-dowm-wrap .ant-alert-message{
+  padding-top: 4px;
+}
+.login-ext-box .right-box .login-form .rm-count-dowm-wrap .anticon{
+  color: #FFA200;
+}
+.rm-count-dowm-wrap .ant-alert-icon{
+  font-size: 20px !important;
+  top:6.5px;
+  left:10px
+}

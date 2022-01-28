@@ -1,0 +1,5 @@
+/scripts
+/config
+/node_modules
+/src/pages/web_client/chat/chat_sdk
+/mock

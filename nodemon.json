@@ -1,0 +1,8 @@
+{
+  "restartable":"rs",
+  "ext": "tsx ts js json development",
+  "watch":[
+    "./.env.development",
+    "./config/webpackDevServer.config.js"
+  ]
+}
